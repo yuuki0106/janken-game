@@ -1,0 +1,29 @@
+jankenpon=input('あなたの手を教えてください')
+import random
+
+r=random.randint(1,3)
+if(r==1):
+    print('相手はグーを出しました。')
+    if(jankenpon=='グー'):
+         print('引き分けです。')
+    elif(jankenpon=='チョキ'):
+         print('あなたの負けです。')
+    elif(jankenpon=='パー'):
+         print('あなたの勝ちです。')
+if(r==2):
+    print('相手はチョキを出しました。')
+    if(jankenpon=='グー'):
+         print('あなたの勝ちです。')
+    elif(jankenpon=='チョキ'):
+         print('引き分けです。')
+    elif(jankenpon=='パー'):
+         print('あなたの負けです。')
+if(r==3):
+    print('相手はパーを出しました。')
+    if(jankenpon=='グー'):
+         print('あなたの負けです。')
+    elif(jankenpon=='チョキ'):
+         print('あなたの勝ちです。')
+    elif(jankenpon=='パー'):
+         print('引き分けです。')
+    
