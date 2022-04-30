@@ -1,2 +1,1 @@
-# janken-game
-# janken-game
+
